@@ -9,10 +9,21 @@
         <script src="rsc/js/script.js" defer></script>
     </head>
     <body>
+        <!-- Add audio elements -->
+        <audio id="jumpAudio">
+            <source src="rsc/audio/jump.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="gameOverAudio">
+            <source src="rsc/audio/game-over.mp3" type="audio/mpeg">
+        </audio>
+        <!-- End add audio elements -->
         <div class="game_board">
             <img src="rsc/img/clouds.png" class="clouds" alt="">
             <img src="rsc/img/mario.gif" class="mario" alt="">
-            <img src="rsc/img/pipe.png" class="pipe" alt="">
+            <img src="rsc/img/pipe.png" class="pipe" alt="">            
+        </div>
+        <div class="game_over_container">
+            <img src="rsc/img/game-over-glitch.gif" class="game_over_glitch" alt="">
         </div>
     </body>
 </html>
